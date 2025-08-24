@@ -20,7 +20,7 @@ class Leave < ApplicationRecord
 
   validates :start_date, presence: true
   validates :end_date, presence: true
-  validates :type, presence: true, inclusion: { in: LEAVE_TYPES }
+  validates :leave_type, presence: true, inclusion: { in: LEAVE_TYPES }
   validates :state, presence: true, inclusion: { in: LEAVE_STATES }
   validate :end_date_greater_than_start_date
 
