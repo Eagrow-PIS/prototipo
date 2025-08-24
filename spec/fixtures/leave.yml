@@ -1,0 +1,15 @@
+one:
+  start_date: 2025-01-01
+  end_date: 2025-01-02
+  leave_type: "vacations"
+  state: "pending"
+  created_at: <%= Time.current %>
+  updated_at: <%= Time.current %>
+
+two:
+  start_date: 2025-01-03
+  end_date: 2025-01-04
+  leave_type: "vacations"
+  state: "approved"
+  created_at: <%= Time.current %>
+  updated_at: <%= Time.current %>
