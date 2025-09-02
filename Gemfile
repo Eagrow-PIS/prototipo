@@ -50,4 +50,13 @@ group :development, :test do
 
   # RSpec for testing
   gem "rspec-rails"
+
+  # Factory Bot for generating fake data
+  gem "factory_bot_rails"
+
+  # Faker for generating fake data
+  gem "faker"
+
+  # Annotate for database schema
+  gem "annotate"
 end
