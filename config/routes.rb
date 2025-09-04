@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resource :session
+  resources :passwords, param: :token
   namespace :api do
     resources :leaves, only: [:index, :create], as: :leaves
     resources :leaves, only: [:show, :update, :destroy], as: :leave
